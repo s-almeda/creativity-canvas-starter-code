@@ -5,11 +5,11 @@ This is Starter code for Project 2: Creativity Canvas, lovingly prepared by Shm 
 <img src="https://i.imgur.com/xcnUizl.png" width="300" alt= "Preview of this Starter Code Drawing Application">
 
 Watch Lecture 6.5 (from July 05, 2022) for a recorded live coding demo where you can see how this code was written from start to finish. 
-I've also shared Shm's Cool Drawing Application (this starter code + around an hour of time spent adding more buttons, colors, and features!) as a GitHub repository available here: https://github.com/s-almeda/shms-cool-drawing-app
 
 <img src="https://i.imgur.com/6L4OUS7.png" width="300" alt= "Shm's Drawing Application Image Preview">
+I've also shared Shm's Cool Drawing Application (this starter code + around an hour of time spent adding more buttons, colors, and features!) as a GitHub repository available here: https://github.com/s-almeda/shms-cool-drawing-app
 
-This should get you all set up with the scaffolding for a drawing application that runs on a local server using JavaScript(with Node.js and Express), HTML + CSS. 
+This repository should get you all set up with the scaffolding for a drawing application that runs on a local server using JavaScript(with Node.js and Express), HTML + CSS. 
 
 Here are some instructions for running this starter code. 
 We're going to be using a command-line interface.
@@ -32,7 +32,7 @@ If you instead see an error message like ``Error: Cannot find module 'express'``
 ### 5. View your website
 Open a web browser (e.g. Google Chrome) to this URL: ``http://localhost:8000/``
 
-You should see a delicious and fabulously designed website! Nice!
+You should see a delicious and fabulously designed drawing app! Nice!
 ### 6. Make it your own!
 Here's the file directory of this repository. 
 
@@ -44,23 +44,25 @@ starter-code
 │   README.md
 │   App.js    		// main JavaScript file
 │
-└───public 		// this where all of our content is stored
-   │   index.html       // The initial view for our webpage
-   │   a.html 		
-   │   b.html 		// these are other pages our website links to
-   │   c.html
-   │
+└───public 		        // this where all of our content is stored
+   │     index.html       // The initial view for our webpage
+   │     
+   └───js               // A folder for storing our javascript/paperscript files 
+   │     my-drawing-app.js    // paperscript code for our drawing application
+   │     paper-full.js        // Paper.js (downloaded from the Paper.js website)
+   │    
    └───css
-   │  	│   styles.css    // our CSS stylesheet!
+   │     styles.css    // our CSS stylesheet!
    │   
-   └───images	         //images used by our website are stored here
-   	│   bunny.jpg 	
+   └───images	         //images used by our website can be stored here
+   	│   
    	└───...
 ```
 
-Alternatively: Delete everything and start over if you want to learn how to set this up on your own, or in your own way. Here are the pages I referenced, from which you can learn everything you need to set up this code on your own:
+Alternatively: Delete everything and start over if you want to set it up on your own, or in your own way. Here are the pages I referenced, from which you can learn everything you need to set up this code on your own:
 
 https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module"
 https://expressjs.com/en/starter/hello-world.html
 https://codeforgeek.com/render-html-file-expressjs/
 https://stackoverflow.com/questions/32257736/app-use-express-serve-multiple-html
+https://icodemag.com/how-to-create-a-super-simple-drawing-tool-with-paper-js/ 
